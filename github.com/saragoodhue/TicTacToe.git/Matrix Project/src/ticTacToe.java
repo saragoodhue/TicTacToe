@@ -9,7 +9,7 @@ public class ticTacToe
 			{	
 				fillGrid();
 				displayGrid();
-				
+				                                                                                                                                                                                                                                                                                                                               
 				System.out.println("I love github");
 				
 				while(!gameIsWon()) 
@@ -57,6 +57,7 @@ public class ticTacToe
 							{
 								ticTacToe[0][0] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[0][0] == " "))
@@ -72,6 +73,7 @@ public class ticTacToe
 							{
 								ticTacToe[0][1] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[0][1] == " "))
@@ -87,6 +89,7 @@ public class ticTacToe
 							{
 								ticTacToe[0][2] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[0][2] == " "))
@@ -102,6 +105,7 @@ public class ticTacToe
 							{
 								ticTacToe[1][0] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[1][0] == " "))
@@ -117,6 +121,7 @@ public class ticTacToe
 							{
 								ticTacToe[1][1] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[1][1] == " "))
@@ -132,6 +137,7 @@ public class ticTacToe
 							{
 								ticTacToe[1][2] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[1][2] == " "))
@@ -147,6 +153,7 @@ public class ticTacToe
 							{
 								ticTacToe[2][0] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[2][0] == " "))
@@ -162,6 +169,7 @@ public class ticTacToe
 							{
 								ticTacToe[2][1] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[2][1] == " "))
@@ -177,6 +185,7 @@ public class ticTacToe
 							{
 								ticTacToe[2][2] = "X";
 								displayGrid();
+								computerMove();
 							}
 						
 						else if(!(ticTacToe[2][2] == " "))
