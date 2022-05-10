@@ -9,8 +9,6 @@ public class ticTacToe
 			{	
 				fillGrid();
 				displayGrid();
-				                                                                                                                                                                                                                                                                                                                               
-				System.out.println("I love github");
 				
 				while(!gameIsWon()) 
 					{
